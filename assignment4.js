@@ -17,6 +17,8 @@ function showTime()
     else
     {
         session= "AM";
+        if(h==0)
+        h=12;
     }
     var day_name=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     var month_name=["January","February","March","April","May","June","July","August","September","October","November","December"];
